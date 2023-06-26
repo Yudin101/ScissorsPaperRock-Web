@@ -11,12 +11,21 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+}
+
+body h2{
+	margin-top: -55px;
+	margin-bottom: 20px;
+	font-size: 50px;
+	color: #7d2ae8;
 }
 
 .container{
 	padding: 2rem 7rem;
-	background: silver;
+	background: #ebebeb;
 	border-radius: 20px;
+	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
 }
 
 .resultImg{
@@ -65,6 +74,10 @@ body{
 }
 
 .optionImg:hover{
+	opacity: 1;
+}
+
+.optionImg.active{
 	opacity: 1;
 }
 
